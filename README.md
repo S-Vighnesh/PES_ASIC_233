@@ -107,7 +107,7 @@ int main(){
 	return 0;
 }
 ```
-<img height="545" alt="image" src="first.png">
+<img height="545" alt="image" src="assets/first.png">
 
 Using the gcc compiler, we compiled the program to get the output.
 
@@ -164,7 +164,7 @@ For different instances,
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
-<img height="423" alt="image" src="second.png">
+<img height="423" alt="image" src="assets/second.png">
 
 
 `spike -d pk sum1ton.c` is used for debugging.
@@ -203,7 +203,7 @@ int main(){
 	return 0;
 }
 ```
-<img height="331" alt="image" src="third.png">
+<img height="331" alt="image" src="assets/third.png">
 
 
 We wrote a C program that shows the maximum and minimum values of 64bit signed numbers.
@@ -219,7 +219,7 @@ int main(){
 	return 0;
 }
 ```
-<img height="381" alt="image" src="fourth.png">
+<img height="381" alt="image" src="assets/fourth.png">
 
 
 # Application Binary Interface
