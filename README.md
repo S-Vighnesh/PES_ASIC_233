@@ -277,3 +277,53 @@ The choice of the number of registers in a processor's architecture, such as the
 ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
 
 <img width="430" alt="image" src="assets/other6.png">
+## Engagement in LabWork via ABI Function Calls
+**C File**
+`custom1to9.c`
+  ``` c
+  #include <stdio.h>
+  
+  extern int load(int x, int y);
+  
+  int main()
+  {
+    int result = 0;
+    int count = 9;
+    result = load(0x0, count+1);
+    printf("Sum of numbers from 1 to 9 is %d\n", result);
+  }
+```
+**Assembly File**
+`load.s`
+``` s
+.section .text
+.global load
+.type load, @function
+
+load:
+
+add a4, a0, zero
+add a2, a0, a1
+add a3, a0, zero
+
+loop:
+
+add a4, a3, a4
+addi a3, a3, 1
+blt a3, a2, loop
+add a0, a4, zero
+ret
+```
+## Simulate C Program using Function Call
+**Compilation:** To compile C code and Asseembly file use the command
+
+`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o custom1to9.o custom1to9.c load.s` 
+
+this would generate object file `custom1to9.o`.
+
+**Execution:** To execute the object file run the command 
+
+`spike pk custom1to9.o`
+
+<img width="517" alt="image" src="assets/fifth.png">
+
