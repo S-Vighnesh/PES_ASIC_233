@@ -327,5 +327,5 @@ this would generate object file `custom1to9.o`.
 
 `spike pk custom1to9.o`
 
-<img width="517" alt="image" src="assets/fifth.png">
+<img width="617" alt="image" src="assets/fifth.png">
 
