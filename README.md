@@ -107,14 +107,14 @@ int main(){
 	return 0;
 }
 ```
-<img width="345" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/2d5e3fe1-f8fd-434b-8faf-2912d3c056e1">
+<img width="345" alt="image" src="https://github.com/S-Vighnesh/pes_asic_233/first.png">
 
 Using the gcc compiler, we compiled the program to get the output.
 
 `gcc sumton.c`
 `.\a.out`
 
-<img width="545" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/0b7e7911-d0b2-4a6a-aefd-cd9b4d520a4f">
+
 
 ## RISCV GCC Compiler and Dissemble
 
