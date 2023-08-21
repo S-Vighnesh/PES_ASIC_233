@@ -57,7 +57,7 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
   - It is an open-source Instruction Set Architecture (ISA) that has gained significant attention and adoption in the world of computer architecture and semiconductor design.
   - RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions. 
 
-<img width="536" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/4eabe0b7-4581-419b-88e7-84c7ac1dac8e">
+<img width="536" alt="image" src="assets/other1.png">
 
 ## From Apps to Hardware
 1. **Apps:** Application software, often referred to simply as "applications" or "apps," is a type of computer software that is designed to perform specific tasks or functions for end-users.
@@ -133,11 +133,11 @@ In order to view the main section, type
 
 Here, since we used -O1 optimisation, the number of instructions are 15.
 
-<img width="453" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/98843b92-0beb-4bfc-ba4b-1dac5c93ed3c">
+<img width="453" alt="image" src="assets/other2.png">
 
 When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12.
 
-<img width="422" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/3eb7afcd-0645-4340-bcac-ae2dc3258ce3">
+<img width="422" alt="image" src="assets/other3.png">
 
 - -Onumber : level of optimisation required
 - -mabi : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
@@ -235,12 +235,12 @@ In big-endian representation, you store the most significant byte (MSB) at the l
 #### For example, consider the 64-bit hexadecimal value 0x0123456789ABCDEF. 
 In Little-Endian representation, it would be stored as follows in memory:
 
-<img width="453" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/8c63e751-8882-4b1e-a2f8-84da628ee604">
+<img width="453" alt="image" src="assets/other4.png">
 
 
 In Big-Endian representation, it would be stored as follows in memory:
 
-<img width="454" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/3954540e-800f-4503-97ef-6c77daacd058">
+<img width="454" alt="image" src="assets/other5.png">
 
 ## Load, Add and Store Instructions
 Load, Add, and Store instructions are fundamental operations in computer architecture and assembly programming. They are often used to manipulate data within a computer's memory and registers.
@@ -276,4 +276,4 @@ The choice of the number of registers in a processor's architecture, such as the
 #### ABI Names
 ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
 
-<img width="430" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/3b7aed64-37cd-492f-b9b5-cd840103566a">
+<img width="430" alt="image" src="assets/other6.png">
