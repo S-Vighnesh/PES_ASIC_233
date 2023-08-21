@@ -277,7 +277,9 @@ The choice of the number of registers in a processor's architecture, such as the
 ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
 
 <img width="430" alt="image" src="assets/other6.png">
+
 ## Engagement in LabWork via ABI Function Calls
+
 **C File**
 `custom1to9.c`
   ``` c
