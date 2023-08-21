@@ -107,7 +107,7 @@ int main(){
 	return 0;
 }
 ```
-<img width="345" alt="image" src="first.png">
+<img height="345" alt="image" src="first.png">
 
 Using the gcc compiler, we compiled the program to get the output.
 
