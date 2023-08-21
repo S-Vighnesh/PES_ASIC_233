@@ -164,14 +164,13 @@ For different instances,
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
-<img width="523" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/2fa7d825-102f-41ed-b9e6-a31c2417cb22">
+<img width="523" alt="image" src="second.png">
 
 
 `spike -d pk sum1ton.c` is used for debugging.
 
 The contents of the registers can also be viewed.
 
-<img width="317" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/be6fcaa9-ab93-46e0-8da3-7b8056d09f0c">
 
 - press ENTER : to show the first line and successive ENTER to show successive lines
 - reg 0 a2 : to check content of register a2 0th core
@@ -204,7 +203,7 @@ int main(){
 	return 0;
 }
 ```
-<img width="531" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/1195a00a-9b42-4a33-bce0-6095e5350647">
+<img width="531" alt="image" src="third.png">
 
 
 We wrote a C program that shows the maximum and minimum values of 64bit signed numbers.
@@ -220,7 +219,7 @@ int main(){
 	return 0;
 }
 ```
-<img width="481" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/48c4c465-8324-4765-98fe-20584143f33f">
+<img width="481" alt="image" src="fourth.png">
 
 
 # Application Binary Interface
