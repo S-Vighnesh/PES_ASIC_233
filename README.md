@@ -50,7 +50,8 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
   - It is an open-source Instruction Set Architecture (ISA) that has gained significant attention and adoption in the world of computer architecture and semiconductor design.
   - RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions. 
 
-<img width="536" alt="image" src="assets/other1.png">
+<img width="536" alt="other1" src="https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/981a1862-ff65-45a2-90bf-f7d941109ab9">
+
 
 ## From Apps to Hardware
 1. **Apps:** Application software, often referred to simply as "applications" or "apps," is a type of computer software that is designed to perform specific tasks or functions for end-users.
@@ -100,7 +101,8 @@ int main(){
 	return 0;
 }
 ```
-<img height="545" alt="image" src="assets/first.png">
+![fifth](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/cb75b2c6-ab6c-4871-8d1e-6632f2546a55)
+
 
 Using the gcc compiler, we compiled the program to get the output.
 
@@ -126,11 +128,13 @@ In order to view the main section, type
 
 Here, since we used -O1 optimisation, the number of instructions are 15.
 
-<img width="453" alt="image" src="assets/other2.png">
+<img width="453" alt="other2" src="https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/20d3487a-95ed-44dc-8148-9965d048a8d4">
+
 
 When we use -Ofast optimisation, we can see that the number of instructions have been reduced to 12.
 
-<img width="422" alt="image" src="assets/other3.png">
+<img width="422" alt="other3" src="https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/777d3986-148b-4686-bceb-8e914ce8671a">
+
 
 - -Onumber : level of optimisation required
 - -mabi : specifies the ABI (Application Binary Interface) to be used during code generation according to the requirements
@@ -157,7 +161,8 @@ For different instances,
 
 `spike pk sum1ton.o` is used to check whether the instructions produced are right to give the correct output.
 
-<img height="423" alt="image" src="assets/second.png">
+![second](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/69f79e4c-3613-4bb3-88f7-13764bdc4669)
+
 
 
 `spike -d pk sum1ton.c` is used for debugging.
@@ -196,7 +201,8 @@ int main(){
 	return 0;
 }
 ```
-<img height="331" alt="image" src="assets/third.png">
+![third](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/66483d4a-bf8b-4ac0-8b79-2d029c238b32)
+
 
 
 We wrote a C program that shows the maximum and minimum values of 64bit signed numbers.
@@ -212,7 +218,8 @@ int main(){
 	return 0;
 }
 ```
-<img height="381" alt="image" src="assets/fourth.png">
+![fourth](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/167e8623-9b9a-40fd-b7a9-66d902cfa9fd)
+
 
 
 # Application Binary Interface
@@ -228,12 +235,14 @@ In big-endian representation, you store the most significant byte (MSB) at the l
 #### For example, consider the 64-bit hexadecimal value 0x0123456789ABCDEF. 
 In Little-Endian representation, it would be stored as follows in memory:
 
-<img width="453" alt="image" src="assets/other4.png">
+<img width="453" alt="other4" src="https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/925054b1-4c67-49f7-bda1-8f5b6a5bb821">
+
 
 
 In Big-Endian representation, it would be stored as follows in memory:
 
-<img width="454" alt="image" src="assets/other5.png">
+<img width="454" alt="other5" src="https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/7456d1e5-b3da-45ab-986a-070b2ade2c89">
+
 
 ## Load, Add and Store Instructions
 Load, Add, and Store instructions are fundamental operations in computer architecture and assembly programming. They are often used to manipulate data within a computer's memory and registers.
@@ -269,7 +278,8 @@ The choice of the number of registers in a processor's architecture, such as the
 #### ABI Names
 ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
 
-<img width="430" alt="image" src="assets/other6.png">
+<img width="430" alt="other6" src="https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/59096a97-f077-4dc0-a896-1c3ecb3202d8">
+
 
 ## Engagement in LabWork via ABI Function Calls
 
