@@ -2,14 +2,6 @@
 ## Objective
 The objective of VLSI (Very Large Scale Integration) physical design for ASICs (Application-Specific Integrated Circuits) is to transform a logical design description (RTL - Register Transfer Level) into a physical layout that can be fabricated as an integrated circuit. This involves translating the high-level functional representation of the circuit into a physical implementation that meets design constraints, performance targets, and manufacturability requirements.
 
-# SKILL OUTCOMES
-+ Architectural Design
-+ RTL Design / Behavioral Modeling
-+ Floorplanning
-+ placement
-+ clock Tree Synthesis
-+ Routing
-
 # INSTALLATION
 https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 + Download the run.sh
@@ -21,32 +13,33 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
 ## DAY 1 
 **Introduction to RISCV ISA and GNU Compiler Toolchain**
 + Introduction to Basic Keywords
-  - [Introduction](#introduction)
-  - [From Apps to Hardware](#from-apps-to-hardware)
-  - [Detail Description of Course Content](#detail-description-of-course-content)
+  - [Introduction]
+  - [From Apps to Hardware]
+  - [Detail Description of Course Content]
 
 + Labwork for RISCV Toolchain
   - [C Program](#c-program)
-  - [RISCV GCC Compiler and Dissemble](#riscv-gcc-compiler-and-dissemble)
-  - [Spike Simulation and Debug](#spike-simulation-and-debug)
+  - [RISCV GCC Compiler and Dissemble]
+  - [Spike Simulation and Debug]
 
 + Integer Number Representation  
-  - [64-bit Unsigned Numbers](#64-bit-unsigned-numbers)
-  - [64-bit Signed Numbers](#64-bit-signed-numbers)
-  - [Labwork For Signed and Unsigned Numbers](#labwork-for-signed-and-unsigned-numbers)
+  - [64-bit Unsigned Numbers]
+  - [64-bit Signed Numbers]
+  - [Labwork For Signed and Unsigned Numbers]
 
 ## DAY 2 
 **Introduction to ABI and Basic Verification Flow**
 + Application Binary Interface
-  - [Introduction to ABI](#introduction-to-abi)
-  - [Memory Allocation for Double Words](#memory-allocation-for-double-words)
-  - [Load, Add and Store Instructions](#load,-add-and-store-instructions)
-  - [32-Registers and their ABI Names](#32-registers-and-their-abi-names)
+  - [Introduction to ABI]
+  - [Memory Allocation for Double Words]
+  - [Load, Add and Store Instructions]
+  - [32-Registers and their ABI Names]
 
 + Labwork using ABI Function Calls
-  - [Algorithm for C Program using ASM](#algorithm-for-c-program-using-asm)
-  - [Review ASM Function Calls](#review-asm-function-calls)
-  - [Simulate C Program using Function Call](#simulate-c-program-using-function-call)
+  - [Algorithm for C Program using ASM]
+  - [Review ASM Function Calls]
+  - [Simulate C Program using Function Call]
+
 # Introduction to Basic Keywords
 ## Introduction
 - **ISA (Instruction Set Archhitecture)**
