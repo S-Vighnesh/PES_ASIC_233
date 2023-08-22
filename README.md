@@ -330,5 +330,6 @@ this would generate object file `custom1to9.o`.
 
 `spike pk custom1to9.o`
 
-<img width="617" alt="image" src="assets/fifth.png">
+![fifth](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/30979896-0882-4904-8653-90e60bb07d32)
+
 
