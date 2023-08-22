@@ -18,7 +18,7 @@ https://github.com/kunalg123/riscv_workshop_collaterals/blob/master/run.sh
   - [Detail Description of Course Content]
 
 + Labwork for RISCV Toolchain
-  - [C Program](#c-program)
+  - [C Program]
   - [RISCV GCC Compiler and Dissemble]
   - [Spike Simulation and Debug]
 
