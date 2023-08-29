@@ -1240,7 +1240,9 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_ternary_operator_mux.vcd`
 
-<img width="626" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/893dc1c8-bc64-41bf-bb35-ee83e37b023d">
+
+![1](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/181458ea-d5f0-48ef-8d26-b4ff7ff1db56)
+
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c675c505-880e-4c15-b079-3c528032c279">
 
@@ -1262,7 +1264,8 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_bad_mux.vcd`
 
-<img width="928" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/97f59e19-d561-4c1e-b8b5-46fb1eb21595">
+![2](https://github.com/S-Vighnesh/PES_ASIC_233/assets/137196908/97d85fc9-774a-4699-8c79-cd3967209b4b)
+
 
 <img width="498" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/5c4652e6-8364-4e81-9cd3-f1795f5d321a">
 
@@ -1281,7 +1284,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_bad_mux.vcd`
 
-<img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9c68b293-6f55-4742-bb06-5cdf9551a5ae">
+
 
 <img width="500" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/46266c26-99ce-4a79-9e5c-9558ea15f407">
 
@@ -1303,7 +1306,7 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_bad_mux.vcd`
 
-<img width="878" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/29d0b4bd-2874-4809-bf2b-728a73cccc09">
+
   
 <img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/9d51d787-22d3-4495-95cc-c87c0ef71d17">
 
@@ -1324,7 +1327,6 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_blocking_caveat.vcd`
 
-<img width="567" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/09e0265c-b794-4d3f-9e27-4403a6b9122a">
 
 <img width="501" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c3b18d2e-d407-45c4-9e97-ec59042ec2bd">
 
@@ -1346,7 +1348,6 @@ It gives a report of what cells are used and the number of input and output sign
 + `./a.out`
 + `gtkwave tb_blocking_caveat.vcd`
 
-<img width="926" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c541ebb5-b42d-4629-b12a-734541df3071">
 
 <img width="503" alt="image" src="https://github.com/Veda1809/pes_asic_class/assets/142098395/c78704db-de4c-4958-880f-0747f78090d9">
 
